@@ -33,6 +33,11 @@
 - 基于qiankun提供的addGlobalUncaughtErrorHandler全局异常捕获
 
 ### 环境准备
+
+clone
+```
+https://github.com/xoptimal/qiankun-demo.git
+```
 项目使用pnpm管理依赖, 请务先安装pnpm
 ```
 npm install -g pnpm
