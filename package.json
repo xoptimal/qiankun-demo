@@ -1,0 +1,19 @@
+{
+  "name": "qiankun-demo-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "dev": "pnpm -r --parallel --filter=./packages/* run dev",
+    "dev:main": "pnpm --filter=./packages/main run dev",
+    "dev:sub1": "pnpm --filter=./packages/sub-app-1 run dev",
+    "dev:sub2": "pnpm --filter=./packages/sub-app-2 run dev",
+    "dev:sub3": "pnpm --filter=./packages/sub-app-3 run dev"
+  },
+  "devDependencies": {
+    "pnpm": "^7.8.0"
+  },
+  "packageManager": "pnpm@7.8.0"
+}
